@@ -83,3 +83,5 @@ deployment_keys.tar
 
 .github/.release
 release-artifacts-*
+
+.idea
