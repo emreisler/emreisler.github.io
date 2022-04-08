@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/emreisler.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/emreisler.github.io/static/js/main.d4ab02f3.js",
-    "static/js/787.a70d6e5c.chunk.js": "/emreisler.github.io/static/js/787.a70d6e5c.chunk.js",
-    "static/media/logo.svg": "/emreisler.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/emreisler.github.io/index.html",
-    "main.073c9b0a.css.map": "/emreisler.github.io/static/css/main.073c9b0a.css.map",
-    "main.d4ab02f3.js.map": "/emreisler.github.io/static/js/main.d4ab02f3.js.map",
-    "787.a70d6e5c.chunk.js.map": "/emreisler.github.io/static/js/787.a70d6e5c.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.a40e7152.js",
+    "static/js/787.a70d6e5c.chunk.js": "/static/js/787.a70d6e5c.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.a40e7152.js.map": "/static/js/main.a40e7152.js.map",
+    "787.a70d6e5c.chunk.js.map": "/static/js/787.a70d6e5c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d4ab02f3.js"
+    "static/js/main.a40e7152.js"
   ]
 }
