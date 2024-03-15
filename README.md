@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Deployed with https://blog.logrocket.com/deploying-react-apps-github-pages/
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -69,6 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-
-I followed this link https://blog.logrocket.com/deploying-react-apps-github-pages/
