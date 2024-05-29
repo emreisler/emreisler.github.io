@@ -8,6 +8,8 @@ Deployed with https://blog.logrocket.com/deploying-react-apps-github-pages/
 
 In the project directory, you can run:
 
+### `npm install`
+and 
 ### `npm start`
 
 Runs the app in the development mode.\
