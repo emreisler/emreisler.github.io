@@ -6,7 +6,7 @@ function Portfolio() {
         <Sidebar>
             <Menu>
                 <SubMenu label="Charts">
-                    <MenuItem> Pie charts </MenuItem>
+                    <MenuItem> Pie charts 2</MenuItem>
                     <MenuItem> Line charts </MenuItem>
                 </SubMenu>
                 <MenuItem> Documentation </MenuItem>
