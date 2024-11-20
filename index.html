@@ -9,26 +9,26 @@
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <!-- Bootstrap + JohnDoe main styles -->
-    <link rel="stylesheet" href="assets/css/portfloio.css">
+    <link rel="stylesheet" href="assets/css/portfolio.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-<!--<a href="components.html" class="btn btn-primary btn-component" data-spy="affix" data-offset-top="600"><i-->
-<!--        class="ti-shift-left-alt"></i> Components</a>-->
 <header class="header">
     <div class="container">
         <ul class="social-icons pt-3">
             <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google"
                                                                                   aria-hidden="true"></i></a></li>
-            <li class="social-item"><a class="social-link text-light" href="https://www.github.com/emreisler"><i class="ti-github"
-                                                                                  aria-hidden="true"></i></a></li>
+            <li class="social-item"><a class="social-link text-light" href="https://www.github.com/emreisler"><i
+                    class="ti-github"
+                    aria-hidden="true"></i></a></li>
             <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-medium"
                                                                                   aria-hidden="true"></i></a></li>
         </ul>
         <div class="header-content">
-            <h4 class="header-subtitle">Hello, I am</h4>
             <h1 class="header-title">Emre İŞLER</h1>
             <h6 class="header-mono">Senior Software Engineer</h6>
-            <button class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+            <button class="btn btn-primary btn-rounded" onclick="downloadResume()"><i class="ti-printer pr-2"></i>Print
+                Resume
+            </button>
         </div>
     </div>
 </header>
@@ -55,7 +55,7 @@
                 <img src="assets/imgs/avatar.jpg" alt="" class="brand-img">
                 <li class="brand-txt">
                     <h5 class="brand-title">Emre İŞLER</h5>
-                    <div class="brand-subtitle">Software Engineer</div>
+                    <div class="brand-subtitle">Senior Software Engineer</div>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
@@ -65,9 +65,9 @@
                 <li class="nav-item">
                     <a href="#blog" class="nav-link">Blog</a>
                 </li>
-                <li class="nav-item last-item">
-                    <a href="#contact" class="nav-link">Contact</a>
-                </li>
+                <!--                <li class="nav-item last-item">-->
+                <!--                    <a href="#contact" class="nav-link">Contact</a>-->
+                <!--                </li>-->
             </ul>
         </div>
     </div>
@@ -79,7 +79,7 @@
             <span class="line mb-5"></span>
             <h5 class="mb-3">A Software Engineer Located In Our Lovely Earth</h5>
             <p class="mt-20">A passionate software engineer</p>
-            <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>
+<!--            <button class="btn btn-outline-danger"><i class="icon-down-circled2 "></i>Download My CV</button>-->
         </div>
         <div class="col-lg-4 about-card">
             <h3 class="font-weight-light">Personal Info</h3>
@@ -201,32 +201,42 @@
                         </div>
                     </div>
                     <div class="card-body pb-2">
-                        <h6>hTL5 &amp; CSS3</h6>
+                        <h6>
+                            <img src="assets/imgs/go-logo.png" alt="Go Logo" class="mini-logo">
+                            Go
+                        </h6>
                         <div class="progress mb-3">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 97%" aria-valuenow="25"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h6>JavaScript</h6>
+                        <h6>
+                            <img src="assets/imgs/java-logo.png" alt="Java Logo" class="mini-logo">
+                            Java
+                        </h6>
                         <div class="progress mb-3">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="25"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h6>PHP</h6>
+                        <h6>
+                            <img src="assets/imgs/js-logo.png" alt="Js Logo" class="mini-logo">
+                            Javascript
+                        </h6>
                         <div class="progress mb-3">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h6>SQL</h6>
+                        <h6>
+                            <img src="assets/imgs/python-logo.png" alt="Pyhton Logo" class="mini-logo">
+                            Python
+                        </h6>
                         <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75"
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="50"
                                  aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
-                        <h6>Laborum</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75"
-                                 aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <h6>Tempora</h6>
+                        <h6>
+                            <img src="assets/imgs/sql-logo.png" alt="SQL Logo" class="mini-logo">
+                            SQL
+                        </h6>
                         <div class="progress mb-3">
                             <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75"
                                  aria-valuemin="0" aria-valuemax="100"></div>
@@ -402,187 +412,119 @@
         <h1 class="mb-5"><span class="text-danger">My</span> Portfolio</h1>
         <div class="portfolio">
             <div class="filters">
-                <a href="#" data-filter=".new" class="active">
-                    New
+                <a href="#" data-filter=".careem">
+                    Careem
                 </a>
-                <a href="#" data-filter=".advertising">
-                    Advertising
+                <a href="#" data-filter=".tucows" class="active">
+                    Tucows Inc
                 </a>
-                <a href="#" data-filter=".branding">
-                    Branding
+                <a href="#" data-filter=".demirören">
+                    Demirören Technology
                 </a>
-                <a href="#" data-filter=".web">
-                    Web
+                <a href="#" data-filter=".havelsan">
+                    Havelsan
+                </a>
+                <a href="#" data-filter=".tusas">
+                    TUSAS
                 </a>
             </div>
             <div class="portfolio-container">
-                <div class="col-md-6 col-lg-4 web new">
+                <div class="col-md-6 col-lg-4 tucows">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-1.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="text-holder">
+                            <h6 class="title">Concurrent Bash Script Runner</h6>
+                            <p class="subtitle">Engineered a high-performance tool enabling concurrent execution of bash
+                                scripts for optimized operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 tucows">
+                    <div class="portfolio-item">
+                        <!--                        <img src="assets/imgs/subscription-restore.jpg" class="img-fluid" alt="Subscription Restore Application">-->
+                        <div class="text-holder">
+                            <h6 class="title">Subscription Restore Application</h6>
+                            <p class="subtitle">Created an efficient data alignment application to align critical
+                                subscription data across distributed databases and external systems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 tucows">
+                    <div class="portfolio-item">
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-1.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Anomaly Detection Applications</h6>
+                                <p class="subtitle">Designed and implemented multiple real-time anomaly detection
+                                    applications for various workflows.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 web new">
+                <div class="col-md-6 col-lg-4 tucows">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-2.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="text-holder">
+                            <h6 class="title">Script Runner Slack Bot</h6>
+                            <p class="subtitle">Implemented an application capable of executing bash scripts in
+                                production environments via Slack and Web UI.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 tucows">
+                    <div class="portfolio-item">
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/auth-service.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Authentication & Authorization Service</h6>
+                                <p class="subtitle">Designed and implemented authentication and role-based authorization
+                                    service for internal platform applications.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 advertising new">
+                <div class="col-md-6 col-lg-4 tucows">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-2.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="text-holder">
+                            <h6 class="title">Temporal Workflow Orchestrator</h6>
+                            <p class="subtitle">Integrated Temporal workflow orchestrator into applications,
+                                optimizing complex distributed workflows.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 tucows">
+                    <div class="portfolio-item">
+                        <!--                        <img src="assets/imgs/kafka-monitoring.jpg" class="img-fluid" alt="Kafka State Machine">-->
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/kafka-monitoring.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Kafka State Machine</h6>
+                                <p class="subtitle">Implemented multiple Kafka event flow monitoring tools, alerting on
+                                    consumer timeouts, exposing detailed metrics to Grafana dashboards.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 web">
+                <div class="col-md-6 col-lg-4 tucows">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/web-4.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <!--                        <img src="assets/imgs/graphql-search.jpg" class="img-fluid" alt="GraphQL Search Application">-->
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/graphql-search.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">GraphQL Search Application</h6>
+                                <p class="subtitle">Contributed to an extensive search application serving clients to
+                                    run complex queries over multiple databases using GraphQL.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4 advertising">
+                <div class="col-md-6 col-lg-4 tucows">
                     <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-1.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <!--                        <img src="assets/imgs/cloud-cli.jpg" class="img-fluid" alt="Cloud Automation CLI">-->
                         <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                            <a class="img-popup" href="assets/imgs/cloud-cli.jpg"></a>
                             <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 web new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/web-3.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">WEB</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 advertising new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-3.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERSITING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 advertising new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/advertising-4.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">ADVERTISING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-1.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-2.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding new">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-3.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-4.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 branding">
-                    <div class="portfolio-item">
-                        <img src="assets/imgs/branding-5.jpg" class="img-fluid"
-                             alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
-                        <div class="content-holder">
-                            <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
-                            <div class="text-holder">
-                                <h6 class="title">BRANDING</h6>
-                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                                <h6 class="title">Cloud Automation CLI</h6>
+                                <p class="subtitle">Contributed to a command-line interface application to simplify
+                                    creating OpenStack instances and integrate them with Nomad, Vault, and Consul
+                                    namespaces.</p>
                             </div>
                         </div>
                     </div>

@@ -11682,3 +11682,10 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+.mini-logo {
+  width: 20px; /* Adjust as needed */
+  height: 20px; /* Adjust as needed */
+  margin-right: 10px; /* Space between the logo and text */
+  vertical-align: middle; /* Aligns logo with text */
+}
