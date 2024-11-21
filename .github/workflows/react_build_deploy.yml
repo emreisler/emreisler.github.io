@@ -8,37 +8,27 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  lint:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Check out the code
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      # Step 2: Set up Node.js environment
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install
+      - run: npm run lint
 
-      # Step 3: Install dependencies
-      - name: Install dependencies
-        run: npm install
-
-      # Step 4:  Disable CI strict mod
-      - name: Disable CI strict mode
-        run: |
-          unset CI
-
-
-      # Step 5: Build the app
-      - name: Build the React app
-        run: npm run build
-
-      # Step 6: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - run: npm install
+      - run: npm run build
+      - uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
