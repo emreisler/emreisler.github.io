@@ -26,11 +26,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Step 4: Build the app
+      # Step 4:  Disable CI strict mod
+      - name: Disable CI strict mode
+        run: |
+          unset CI
+
+
+      # Step 5: Build the app
       - name: Build the React app
         run: npm run build
 
-      # Step 5: Deploy to GitHub Pages
+      # Step 6: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

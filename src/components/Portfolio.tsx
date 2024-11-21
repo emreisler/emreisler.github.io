@@ -23,7 +23,6 @@ $(document).ready(function(){
  */
 
 export default function Portfolio() {
-    const companies = ["tucows", "tusas"]
 
     const [company, setCompany] = useState("tucows")
     const handleSelection = (event: any, value: string) => {
