@@ -20,15 +20,16 @@ const services = [
         description: "Combining and serving meaningful data by integrating multiple databases and external services. Expertise in building APIs and services that deliver seamless functionality and insightful data for complex systems."
     },
     {
-        logo: "ti-bar-chart text-danger",
-        header: "Consectetur",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.",
+        logo: "ti-cloud text-warning",
+        header: "Cloud Automation",
+        description: "Streamlining cloud operations with automation tools and CLI applications. Expertise in provisioning resources, managing configurations, and integrating services like OpenStack, Vault, and Consul for efficient cloud management."
     },
     {
-        logo: "ti-support text-danger",
-        header: "Veritatis",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.",
-    },
+        logo: "ti-bar-chart text-success",
+        header: "Big Data Processing",
+        description: "Design and implementation of scalable big data pipelines using Kafka, Spark, and distributed systems. Expertise in real-time data processing, ETL workflows, and analytics to handle high-volume data streams effectively."
+    }
+
 ];
 
 
