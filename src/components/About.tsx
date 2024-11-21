@@ -22,8 +22,14 @@ export default function About() {
                         <li><span>Address</span> : Yenimahalle/ANKARA</li>
                     </ul>
                     <ul className="social-icons pt-3">
-                        <li className="social-item"><a className="social-link" href="https://github.com/emreisler"><i className="ti-github"
-                                                                                           aria-hidden="true"></i></a>
+                        <li className="social-item">
+                            <a
+                                className="social-link"
+                                href="https://github.com/emreisler"
+                                aria-label="Visit GitHub Profile"
+                            >
+                                <i className="ti-github" aria-hidden="true"></i>
+                            </a>
                         </li>
                     </ul>
                 </div>
