@@ -1,10 +1,10 @@
 name: Deploy React App to GitHub Pages
 
 on:
-  # Trigger the workflow manually or on push to the main branch
-  push:
-    branches:
-      - main
+#  # Trigger the workflow manually or on push to the main branch
+#  push:
+#    branches:
+#      - main
   workflow_dispatch:
 
 jobs:
