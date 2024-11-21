@@ -10,16 +10,10 @@ export default function Header(){
         <header className="header">
             <div className="container">
                 <ul className="social-icons pt-3">
-                    <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-google"
-                                                                                                  aria-hidden="true"></i></a>
-                    </li>
                     <li className="social-item"><a className="social-link text-light"
                                                    href="https://www.github.com/emreisler"><i
                         className="ti-github"
                         aria-hidden="true"></i></a></li>
-                    <li className="social-item"><a className="social-link text-light" href="#"><i className="ti-medium"
-                                                                                                  aria-hidden="true"></i></a>
-                    </li>
                 </ul>
                 <div className="header-content">
                     <h1 className="header-title">Emre İŞLER</h1>

@@ -1,5 +1,4 @@
 import projects from "./projects";
-import Project from "./Project";
 
 export default function Company(props: { companyName: string }) {
     console.log("Rendering company: ", props.companyName);
