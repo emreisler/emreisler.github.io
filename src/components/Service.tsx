@@ -9,7 +9,7 @@ export default function Service() {
                 <h2 className="mb-5 pb-4"><span className="text-danger">My</span> Services</h2>
                 <div className="row">
                     {services.map((service) => (
-                        <ServiceCard header={service.header} description={service.description}
+                        <ServiceCard key={service.header} header={service.header} description={service.description}
                                      className={service.logo}/>
                     ))}
                 </div>

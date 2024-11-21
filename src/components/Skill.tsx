@@ -15,11 +15,7 @@ export default function Skill(props: { skillName: string, percantage: string, lo
                 <img src={props.logoPath} alt="SQL Logo" className="mini-logo"/>
                 {props.skillName}
             </h6>
-            <div className="progress mb-3">
-                {/*<div className="progress-bar bg-danger" role="progressbar"*/}
-                {/*     aria-valuenow="75"*/}
-                {/*     aria-valuemin="0" aria-valuemax="100"></div>*/}
-            </div>
+
         </>
 
     )

@@ -16,7 +16,6 @@ export default function Company(props: { companyName: string }) {
                             <div className="card-body px-4 py-3">
                                 <h5 className="mb-3 card-title text-dark">{project.header}</h5>
                                 <p>{project.description}</p>
-                                <small className="text-muted">{project.company}</small>
                             </div>
                         </div>
                     </div>

@@ -15,13 +15,6 @@ export default function Portfolio() {
                 <div className="portfolio">
                     <div className="filters">
                         <button
-                            data-filter=".careem"
-                            onClick={(e) => handleSelection(e, "careem")}
-                            className={company === "careem" ? "active" : ""}
-                        >
-                            Careem
-                        </button>
-                        <button
                             data-filter=".tucows"
                             onClick={(e) => handleSelection(e, "tucows")}
                             className={company === "tucows" ? "active" : ""}

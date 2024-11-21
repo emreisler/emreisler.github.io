@@ -1,6 +1,9 @@
 import "../assets/vendors/themify-icons/css/themify-icons.css"
+import { FaGithub, FaLinkedin, FaMedium } from 'react-icons/fa';
 
 export default function About() {
+    const iconStyle = { marginRight: "10px", fontSize: "1.5rem" };
+
     return (
         <div className="container-fluid">
             <div id="about" className="row about-section">
@@ -22,13 +25,19 @@ export default function About() {
                         <li><span>Address</span> : Yenimahalle/ANKARA</li>
                     </ul>
                     <ul className="social-icons pt-3">
-                        <li className="social-item">
-                            <a
-                                className="social-link"
-                                href="https://github.com/emreisler"
-                                aria-label="Visit GitHub Profile"
-                            >
-                                <i className="ti-github" aria-hidden="true"></i>
+                        <li>
+                            <a href="https://github.com/emreisler" target="_blank" rel="noopener noreferrer">
+                                <FaGithub style={iconStyle}/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/emre-işler-987b5b76" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin style={{...iconStyle, color: "#0077B5"}}/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://medium.com/@emre.isler.9" target="_blank" rel="noopener noreferrer">
+                                <FaMedium style={{...iconStyle, color: "#00ab6c"}}/>
                             </a>
                         </li>
                     </ul>

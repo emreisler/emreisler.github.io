@@ -7,6 +7,12 @@ import javaLogo from "../assets/imgs/java-logo.png"
 import jsLogo from "../assets/imgs/js-logo.png"
 import pythonLogo from "../assets/imgs/python-logo.png"
 import sqlLogo from "../assets/imgs/sql-logo.png"
+import kafkaLogo from "../assets/imgs/kafka-logo.png"
+import redisLogo from "../assets/imgs/redis-logo.png"
+import k8Logo from "../assets/imgs/k8s-logo.png"
+import dockerLogo from "../assets/imgs/docker-logo.png"
+import awsLogo from "../assets/imgs/aws-logo.png"
+import psgLogo from "../assets/imgs/postgresql-logo.png"
 
 export default function Resume() {
     return (
@@ -21,14 +27,14 @@ export default function Resume() {
                                 <div className="card-body">
                                     <ResumeItem time="2022 - Current" company="Tucows Inc"
                                                 header="Platform Software Engineer"
-                                                subText="Platform solutions"/>
+                                                subText=""/>
                                     <ResumeItem time="2021-2022" company="Demirören Technology"
                                                 header="Backend Software Engineer"
-                                                subText="Platform solutions"/>
-                                    <ResumeItem time="2020-2021" company="Havelsan" header="Software Engineer"
-                                                subText="Platform solutions"/>
-                                    <ResumeItem time="2013-2020" company="TUSAS" header="Software Engineer"
-                                                subText="Platform solutions"/>
+                                                subText=""/>
+                                    <ResumeItem time="2020-2021" company="Havelsan" header="Full Stack Software Engineer"
+                                                subText=""/>
+                                    <ResumeItem time="2013-2020" company="TUSAS" header="Full Stack Software Engineer"
+                                                subText=""/>
                                 </div>
                             </div>
                         </div>
@@ -57,14 +63,14 @@ export default function Resume() {
                                 </div>
                             </div>
                             <div className="card">
-                                <div className="card-header">
-                                    <div className="pull-left">
-                                        <h4 className="mt-2">Languages</h4>
-                                        <span className="line"></span>
-                                    </div>
-                                </div>
+                                <ResumeSubHeader header="Tools"/>
                                 <div className="card-body pb-2">
-                                    <Skill skillName="English" percantage="" logoPath=""/>
+                                    <Skill skillName="PostgreSQL" percantage="" logoPath={psgLogo}/>
+                                    <Skill skillName="Kafka" percantage="" logoPath={kafkaLogo}/>
+                                    <Skill skillName="Redis" percantage="" logoPath={redisLogo}/>
+                                    <Skill skillName="Docker" percantage="" logoPath={dockerLogo}/>
+                                    <Skill skillName="Kubernetes" percantage="" logoPath={k8Logo}/>
+                                    <Skill skillName="Amazon Web Services" percantage="" logoPath={awsLogo}/>
                                 </div>
                             </div>
                         </div>

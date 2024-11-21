@@ -7,6 +7,7 @@ import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Service from "./components/Service";
+import StatisticsSection from "./components/Statistics";
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <About/>
             <Resume/>
             <Service/>
+            <StatisticsSection/>
             <Portfolio/>
         </div>
     );
