@@ -35,46 +35,41 @@ export default function Portfolio() {
                 <h1 className="mb-5"><span className="text-danger">My</span> Portfolio</h1>
                 <div className="portfolio">
                     <div className="filters">
-                        <a
-                            href="#"
+                        <button
                             data-filter=".careem"
-                            onClick={(e) => handleSelection(e,"careem")}
+                            onClick={(e) => handleSelection(e, "careem")}
                             className={company === "careem" ? "active" : ""}
                         >
                             Careem
-                        </a>
-                        <a
-                            href="#"
+                        </button>
+                        <button
                             data-filter=".tucows"
-                            onClick={(e) => handleSelection(e,"tucows")}
+                            onClick={(e) => handleSelection(e, "tucows")}
                             className={company === "tucows" ? "active" : ""}
                         >
                             Tucows Inc
-                        </a>
-                        <a
-                            href="#"
+                        </button>
+                        <button
                             data-filter=".demirören"
-                            onClick={(e) => handleSelection(e,"demirören")}
+                            onClick={(e) => handleSelection(e, "demirören")}
                             className={company === "demirören" ? "active" : ""}
                         >
                             Demirören Technology
-                        </a>
-                        <a
-                            href="#"
+                        </button>
+                        <button
                             data-filter=".havelsan"
-                            onClick={(e) => handleSelection(e,"havelsan")}
+                            onClick={(e) => handleSelection(e, "havelsan")}
                             className={company === "havelsan" ? "active" : ""}
                         >
                             Havelsan
-                        </a>
-                        <a
-                            href="#"
+                        </button>
+                        <button
                             data-filter=".tusas"
-                            onClick={(e) => handleSelection(e,"tusas")}
+                            onClick={(e) => handleSelection(e, "tusas")}
                             className={company === "tusas" ? "active" : ""}
                         >
                             TUSAS
-                        </a>
+                        </button>
                     </div>
                     <Company companyName={company}/>
                 </div>
