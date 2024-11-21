@@ -50,6 +50,9 @@ export default function Portfolio() {
                             TUSAS
                         </button>
                     </div>
+                    <br/>
+                    <br/>
+                    <br/>
                     <Company companyName={company}/>
                 </div>
             </div>
