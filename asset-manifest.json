@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.2d82fb8c.css",
-    "main.js": "/react-gh-pages/static/js/main.94c55df2.js",
-    "static/media/themify.svg?-fvbane": "/react-gh-pages/static/media/themify.f0fc8c798eac5636249c.svg",
-    "static/media/themify.eot": "/react-gh-pages/static/media/themify.9bad94440d49256265a5.eot",
-    "static/media/themify.ttf?-fvbane": "/react-gh-pages/static/media/themify.eda8b94308c6f538f04a.ttf",
-    "static/media/postgresql-logo.png": "/react-gh-pages/static/media/postgresql-logo.4232ad50a246a67037c9.png",
-    "static/media/header.jpg": "/react-gh-pages/static/media/header.8a63f291ebfc792db0a3.jpg",
-    "static/media/themify.woff?-fvbane": "/react-gh-pages/static/media/themify.29b39089170885ae2967.woff",
-    "static/media/aws-logo.png": "/react-gh-pages/static/media/aws-logo.850296a094250f4a242e.png",
-    "static/media/avatar.jpg": "/react-gh-pages/static/media/avatar.b3b65a3511ebe87ef06a.jpg",
-    "static/media/js-logo.png": "/react-gh-pages/static/media/js-logo.d206e1f67e4c0985166c.png",
-    "static/media/python-logo.png": "/react-gh-pages/static/media/python-logo.632369df831d16241b59.png",
-    "static/media/redis-logo.png": "/react-gh-pages/static/media/redis-logo.fa00a56cfa7d237b68b2.png",
-    "index.html": "/react-gh-pages/index.html",
-    "main.2d82fb8c.css.map": "/react-gh-pages/static/css/main.2d82fb8c.css.map",
-    "main.94c55df2.js.map": "/react-gh-pages/static/js/main.94c55df2.js.map"
+    "main.css": "/static/css/main.870fc349.css",
+    "main.js": "/static/js/main.fc57e672.js",
+    "static/media/themify.svg?-fvbane": "/static/media/themify.f0fc8c798eac5636249c.svg",
+    "static/media/themify.eot": "/static/media/themify.9bad94440d49256265a5.eot",
+    "static/media/themify.ttf?-fvbane": "/static/media/themify.eda8b94308c6f538f04a.ttf",
+    "static/media/postgresql-logo.png": "/static/media/postgresql-logo.4232ad50a246a67037c9.png",
+    "static/media/header.jpg": "/static/media/header.8a63f291ebfc792db0a3.jpg",
+    "static/media/themify.woff?-fvbane": "/static/media/themify.29b39089170885ae2967.woff",
+    "static/media/aws-logo.png": "/static/media/aws-logo.850296a094250f4a242e.png",
+    "static/media/avatar.jpg": "/static/media/avatar.b3b65a3511ebe87ef06a.jpg",
+    "static/media/js-logo.png": "/static/media/js-logo.d206e1f67e4c0985166c.png",
+    "static/media/python-logo.png": "/static/media/python-logo.632369df831d16241b59.png",
+    "static/media/redis-logo.png": "/static/media/redis-logo.fa00a56cfa7d237b68b2.png",
+    "index.html": "/index.html",
+    "main.870fc349.css.map": "/static/css/main.870fc349.css.map",
+    "main.fc57e672.js.map": "/static/js/main.fc57e672.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d82fb8c.css",
-    "static/js/main.94c55df2.js"
+    "static/css/main.870fc349.css",
+    "static/js/main.fc57e672.js"
   ]
 }
