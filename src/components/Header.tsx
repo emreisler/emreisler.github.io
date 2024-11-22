@@ -9,7 +9,7 @@ export default function Header(){
         document.body.removeChild(link); // Clean up
     }
     return (
-        <header className="header">
+        <header className="header" id="home">
             <div className="container">
                 <div className="header-content">
                     <h1 className="header-title">Emre İŞLER</h1>

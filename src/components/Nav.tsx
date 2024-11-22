@@ -19,7 +19,7 @@ export function Nav() {
 
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-            <div className="container">
+            <div className="container-fluid">
                 {/* Toggler for Mobile View */}
                 <button
                     className="navbar-toggler ml-auto"
@@ -35,14 +35,12 @@ export function Nav() {
 
                 {/* Collapsible Navbar Content */}
                 <div className="collapse mt-sm-20 navbar-collapse" id="navbarSupportedContent">
-                    {/* Left Navigation */}
                     <ul className="navbar-nav mr-auto">
                         <NavButton label="Home" sectionId="home" />
                         <NavButton label="About" sectionId="about" />
                         <NavButton label="Resume" sectionId="resume" />
                     </ul>
 
-                    {/* Brand Information */}
                     <ul className="navbar-nav brand">
                         <img src={avatar} alt="Brand" className="brand-img" />
                         <li className="brand-txt">
@@ -51,7 +49,6 @@ export function Nav() {
                         </li>
                     </ul>
 
-                    {/* Right Navigation */}
                     <ul className="navbar-nav ml-auto">
                         <NavButton label="Portfolio" sectionId="portfolio" />
                         <NavButton label="Blog" sectionId="blog" />

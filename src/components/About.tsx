@@ -5,8 +5,8 @@ export default function About() {
     const iconStyle = { marginRight: "10px", fontSize: "1.5rem" };
 
     return (
-        <div className="container-fluid">
-            <div id="about" className="row about-section">
+        <div id="about" className="container-fluid">
+            <div  className="row about-section">
                 <div className="col-lg-4 about-card">
                     <h3 className="font-weight-light">Who am I ?</h3>
                     <span className="line mb-5"></span>

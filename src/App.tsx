@@ -8,6 +8,8 @@ import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
 import Service from "./components/Service";
 import StatisticsSection from "./components/Statistics";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
     return (
