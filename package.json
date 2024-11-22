@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://emreisler.github.io/react-gh-pages",
+  "homepage": "https://emreisler.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.1",
     "@testing-library/jest-dom": "^5.17.0",
