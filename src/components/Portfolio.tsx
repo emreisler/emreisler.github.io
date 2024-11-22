@@ -42,6 +42,13 @@ export default function Portfolio() {
                         >
                             TUSAS
                         </button>
+                        <button
+                            data-filter=".freelance"
+                            onClick={(e) => handleSelection(e, "freelance")}
+                            className={company === "freelance" ? "active" : ""}
+                        >
+                            Freelance
+                        </button>
                     </div>
                     <br/>
                     <br/>

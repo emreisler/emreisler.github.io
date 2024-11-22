@@ -78,10 +78,10 @@ const projects = [
         iconClass: "ti-control-play text-info"
     },
     {
-        company: "careem",
-        header: "Configuration Control Application",
-        description: "Design and development of an app to manage all runtime configurations for Careem operations.",
-        iconClass: "ti-settings text-secondary"
+        company: "freelance",
+        header: "HealthyAir Application",
+        description: "Developed an Android application with Java for air quality monitoring, integrating machine learning models, Bluetooth connectivity with Arduino sensors, and a web service hosted on Google Cloud Platform for personalized health recommendations.",
+        iconClass: "ti-mobile text-primary"
     }
 ];
 

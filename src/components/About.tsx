@@ -10,7 +10,7 @@ export default function About() {
                 <div className="col-lg-4 about-card">
                     <h3 className="font-weight-light">Who am I ?</h3>
                     <span className="line mb-5"></span>
-                    <h5 className="mb-3">A Software Engineer Located In Our Lovely Earth</h5>
+                    <h5 className="mb-3">A Passionate Software Engineer Crafting Scalable Solutions</h5>
                     <p className="mt-20">Experienced Software Engineer with a strong background in distributed system architecture. Skilled
                         in crafting robust and scalable solutions, adept at optimizing performance within complex
                         environments.</p>
@@ -32,12 +32,12 @@ export default function About() {
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/emre-işler-987b5b76" target="_blank" rel="noopener noreferrer">
-                                <FaLinkedin style={{...iconStyle, color: "#0077B5"}}/>
+                                <FaLinkedin style={iconStyle}/>
                             </a>
                         </li>
                         <li>
                             <a href="https://medium.com/@emre.isler.9" target="_blank" rel="noopener noreferrer">
-                                <FaMedium style={{...iconStyle, color: "#00ab6c"}}/>
+                                <FaMedium style={iconStyle}/>
                             </a>
                         </li>
                     </ul>
@@ -46,7 +46,7 @@ export default function About() {
                     <h3 className="font-weight-light">My Expertise</h3>
                     <span className="line mb-5"></span>
                     <div className="row">
-                        <div className="col-1 text-danger pt-1"><i className="ti-paint-bucket icon-lg"></i></div>
+                        <div className="col-1 text-danger pt-1"><i className="ti-desktop icon-lg"></i></div>
                         <div className="col-10 ml-auto mr-3">
                             <h6>Full-Stack Web Development</h6>
                             <p className="subtitle">Extensive experience in building dynamic, user-friendly web
@@ -56,7 +56,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-1 text-danger pt-1"><i className="ti-widget icon-lg"></i></div>
+                        <div className="col-1 text-danger pt-1"><i className="ti-layers icon-lg"></i></div>
                         <div className="col-10 ml-auto mr-3">
                             <h6>Software Design</h6>
                             <p className="subtitle"> Extensive experience in designing distributed systems with a focus
@@ -65,7 +65,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-1 text-danger pt-1"><i className="ti-stats-up icon-lg"></i></div>
+                        <div className="col-1 text-danger pt-1"><i className="ti-cloud-up icon-lg"></i></div>
                         <div className="col-10 ml-auto mr-3">
                             <h6>Cloud Infrastructure & Automation</h6>
                             <p className="subtitle">Proficient in deploying applications to cloud platforms (Azure,

@@ -25,9 +25,9 @@ const services = [
         description: "Streamlining cloud operations with automation tools and CLI applications. Expertise in provisioning resources, managing configurations, and integrating services like OpenStack, Vault, and Consul for efficient cloud management."
     },
     {
-        logo: "ti-bar-chart text-success",
-        header: "Big Data Processing",
-        description: "Design and implementation of scalable big data pipelines using Kafka, Spark, and distributed systems. Expertise in real-time data processing, ETL workflows, and analytics to handle high-volume data streams effectively."
+        logo: "ti-mobile text-primary",
+        header: "End-to-End Mobile Solutions",
+        description: "Expertise in developing mobile applications integrated with backend systems and hardware devices such as Arduino and PLCs. Skilled in crafting seamless solutions that bridge mobile platforms, robust backends, and IoT or industrial devices for comprehensive functionality."
     }
 
 ];

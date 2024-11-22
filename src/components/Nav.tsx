@@ -19,7 +19,7 @@ export function Nav() {
 
     return (
         <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
-            <div className="container-fluid">
+            <div className="container">
                 {/* Toggler for Mobile View */}
                 <button
                     className="navbar-toggler ml-auto"
