@@ -3,7 +3,7 @@ export default function Header(){
     const downloadResume = () => {
         const link = document.createElement('a');
         link.href = `${process.env.PUBLIC_URL}/documents/EMRE_ISLER.pdf`;
-        link.download = 'Emre İŞLER.pdf';
+        link.download = 'Emre_ISLER.pdf';
         document.body.appendChild(link); // Append to DOM
         link.click();
         document.body.removeChild(link); // Clean up
