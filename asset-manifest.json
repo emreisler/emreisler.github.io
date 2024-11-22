@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.870fc349.css",
-    "main.js": "/static/js/main.92aadcee.js",
+    "main.css": "/static/css/main.70983a2b.css",
+    "main.js": "/static/js/main.e85f9f02.js",
     "static/media/themify.svg?-fvbane": "/static/media/themify.f0fc8c798eac5636249c.svg",
     "static/media/themify.eot": "/static/media/themify.9bad94440d49256265a5.eot",
     "static/media/themify.ttf?-fvbane": "/static/media/themify.eda8b94308c6f538f04a.ttf",
@@ -14,11 +14,11 @@
     "static/media/python-logo.png": "/static/media/python-logo.632369df831d16241b59.png",
     "static/media/redis-logo.png": "/static/media/redis-logo.fa00a56cfa7d237b68b2.png",
     "index.html": "/index.html",
-    "main.870fc349.css.map": "/static/css/main.870fc349.css.map",
-    "main.92aadcee.js.map": "/static/js/main.92aadcee.js.map"
+    "main.70983a2b.css.map": "/static/css/main.70983a2b.css.map",
+    "main.e85f9f02.js.map": "/static/js/main.e85f9f02.js.map"
   },
   "entrypoints": [
-    "static/css/main.870fc349.css",
-    "static/js/main.92aadcee.js"
+    "static/css/main.70983a2b.css",
+    "static/js/main.e85f9f02.js"
   ]
 }
